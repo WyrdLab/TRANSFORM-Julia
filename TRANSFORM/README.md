@@ -129,7 +129,7 @@ Stacktrace:
  [2] top-level scope
    @ REPL[3]:1
    - **FIXED:** Meant to call SimPart_ab_ThermalResistances instead of Part_ab_ThermalResistances
-- plot(SimPart_ab_ThermalResistances()) gives the error below. Assuming no other issues, this model solves easily in Dymola (see [TRANSFORM example](https://github.com/ORNL-Modelica/TRANSFORM-Library/blob/master/TRANSFORM/HeatAndMassTransfer/Examples/ExamplesFrom_NellisAndKlein/Example_1_2_1_LiquidOxygenDewar/part_ab_ThermalResistances.mo)). Not sure how to address this.
+- plot(SimPart_ab_ThermalResistances()) gives the error below. Assuming no other issues, this model solves easily in Dymola (see [TRANSFORM example](https://github.com/WyrdLab/TRANSFORM-Library/blob/master/TRANSFORM/HeatAndMassTransfer/Examples/ExamplesFrom_NellisAndKlein/Example_1_2_1_LiquidOxygenDewar/part_ab_ThermalResistances.mo)). Not sure how to address this.
    ```
    ERROR: Cyclic guesses detected in the system. Symbolic values were found for the following variables/parameters in the map:
    insulation₊port_a₊T(t)  => contact_1₊port_b₊T(t)
